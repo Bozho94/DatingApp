@@ -25,9 +25,6 @@ export const errorInterceptor: HttpInterceptorFn = (req, next) => {
             }else {
               toast.error(error.error)
             }
-
-            
-           
             break;
 
           case 401:
